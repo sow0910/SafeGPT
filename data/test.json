@@ -1,0 +1,2707 @@
+[
+  {
+    "text": "You can call me Rahul Kumar.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "I am Sneha Reddy and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My registered address is 78 Banjara Hills, Hyderabad.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 52,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My Aadhaar is 1111 2222 3333.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 28,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please update the PAN to RSTUV3456W.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Please provide my PAN as RSTUV3456W.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "I currently live at 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 42,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My Aadhaar number is 2222 3333 4444.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please deliver it to 23 Koregaon Park, Pune.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 43,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Kavya Nair.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please provide my PAN as FGHIJ5678K.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Mumbai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please update the PAN to ABCDE1234F.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 1111 2222 3333.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "My registered address is 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 47,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please deliver it to 45 MG Road, Bengaluru.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 42,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My birth date is 28/11/1997.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "The passport number is P3456789.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to sneha@example.com.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I currently live in Chennai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I currently live in Kochi.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "The patient's address is 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 47,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "Please call me on +91-90000-23456.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Contact me through ananya@example.com.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My area PIN is 625001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 4444 5555 6666.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please provide my PAN as XYZAB7890C.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Vikram Patel.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My registered passport is P4567890.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P3456789.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "My date of birth is 05/06/2001.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "The delivery PIN code is 570001.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "The postal code is 682001.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "My PAN number is LMNOP9012Q.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 21/03/2000.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Mumbai and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My address is 45 MG Road, Bengaluru.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 35,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Kavya Nair.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P2345678.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The Aadhaar number is 4444 5555 6666.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "The Aadhaar number is 3333 4444 5555.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "I currently live at 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 42,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-56789.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The registered Aadhaar number is 3333 4444 5555.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 47,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please call me on +91-90000-12345.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Pune and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I currently live at 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 42,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My current location is Mysuru.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please deliver it to 56 Marine Drive, Mumbai.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 44,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact me at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please register my name as Rohan Gupta.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 38,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My passport number is P3456789.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The Aadhaar number is 5555 6666 7777.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please record my DOB as 15/08/1999.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "My PAN number is LMNOP9012Q.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My passport number is P5678901.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "My birth date is 15/08/1999.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P1234567.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "You can contact me at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My passport number is P4567890.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "Please deliver it to 78 Banjara Hills, Hyderabad.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 48,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P1234567.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "My address is 56 Marine Drive, Mumbai.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 37,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My email address is rahul@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My email address is sneha@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 15/08/1999.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "My current location is Mysuru.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I was born on 21/03/2000.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-56789.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Contact me through arjun@example.com.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 36,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My registered address is 23 Koregaon Park, Pune.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 47,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "You can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please update the PAN to ABCDE1234F.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P1234567.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "I was born on 15/08/1999.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 21/03/2000.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 10/12/1998.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P5678901.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My registered email is arjun@example.com.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please register my name as Kavya Nair.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please use PIN 110001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "My email address is sneha@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 15/08/1999.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-56789.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact me at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The delivery PIN code is 682001.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Arjun Menon.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Hyderabad and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My PAN is RSTUV3456W.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "The registered Aadhaar number is 1111 2222 3333.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 47,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The Aadhaar number is 3333 4444 5555.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The registered PAN is RSTUV3456W.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 2222 3333 4444.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Arjun Menon at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Chennai and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The postal code is 600042.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "The postal code is 500001.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact me at +91-90000-56789.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The patient is from Chennai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please update the PAN to LMNOP9012Q.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "You can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I currently live in Mumbai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rohan Gupta.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 28/11/1997.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Contact me through sneha@example.com.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 36,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am staying in Mysuru.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Hyderabad and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I was born on 10/12/1998.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Hyderabad and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My PAN is ABCDE1234F.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My address is 56 Marine Drive, Mumbai.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 37,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "Please provide my PAN as FGHIJ5678K.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My address is 23 Koregaon Park, Pune.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 36,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma lives in Pune and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "label": "LOCATION"
+      },
+      {
+        "start": 51,
+        "end": 66,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My registered email is rahul@example.com.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Meera Krishnan.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My PAN number is ABCDE1234F.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma lives in Mumbai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The delivery PIN code is 570001.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "Please call me on +91-90000-45678.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The patient's address is 23 Koregaon Park, Pune.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 47,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My area PIN is 625001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My address is 45 MG Road, Bengaluru.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 35,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My date of birth is 28/11/1997.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 3333 4444 5555.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "I currently live at 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 42,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My PIN code is 600042.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "Please provide my PAN as XYZAB7890C.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "The passport number is P3456789.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "Please record my DOB as 21/03/2000.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "My email address is ananya@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 38,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My area PIN is 625001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "The patient's passport number is P2345678.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 41,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 1111 2222 3333.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please use PIN 625001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "My email address is sneha@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "The registered PAN is LMNOP9012Q.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My registered address is 23 Koregaon Park, Pune.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 47,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My PAN number is RSTUV3456W.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma lives in Bengaluru and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "label": "LOCATION"
+      },
+      {
+        "start": 56,
+        "end": 71,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact me at +91-90000-56789.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "The postal code is 411001.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "Contact me through arjun@example.com.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 36,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please call me on +91-90000-56789.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My date of birth is 05/06/2001.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 2222 3333 4444.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "The patient's DOB is 05/06/2001.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "The patient's address is 45 MG Road, Bengaluru.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 46,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "The Aadhaar number is 4444 5555 6666.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Bengaluru and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please record my DOB as 28/11/1997.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My Aadhaar is 1111 2222 3333.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 28,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "I currently live in Pune.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-56789.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "The patient is from Delhi.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Meera Krishnan.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The patient's name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can call me Rohan Gupta.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My PAN is RSTUV3456W.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P5678901.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I currently live at 56 Marine Drive, Mumbai.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 43,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "Please record my DOB as 28/11/1997.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "My PIN code is 500001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Arjun Menon at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Meera Krishnan.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The postal code is 641001.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "The passport number is P1234567.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "Please call me on +91-90000-45678.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please register my name as Priya Sharma.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 39,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "The registered PAN is RSTUV3456W.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My area PIN is 110001.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I was born on 15/08/1999.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Mumbai and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My PAN is XYZAB7890C.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My Aadhaar number is 5555 6666 7777.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please register my name as Vikram Patel.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 39,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please deliver it to 78 Banjara Hills, Hyderabad.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 48,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "The postal code is 682001.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "The delivery PIN code is 600042.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "Please verify Aadhaar 5555 6666 7777.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "Please record passport P5678901.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My address is 45 MG Road, Bengaluru.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 35,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "You can reach me at +91-90000-56789.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please update the PAN to RSTUV3456W.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "My Aadhaar number is 3333 4444 5555.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "My email address is priya@example.com.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My registered number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My Aadhaar number is 1111 2222 3333.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  }
+]

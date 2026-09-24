@@ -1,0 +1,62 @@
+{
+  "prompt": "My name is Ananya Iyer. My Aadhaar is 2222 3333 4444. My PAN is ABCDE1234F. My passport is A1234567. I was born on 15/08/2003. I currently live in Chennai. My registered address is 45 MG Road, Bengaluru with PIN 560001. Please reach me at ananya@example.com or call +91-90000-12345. Can you summarize all my details?",
+  "detected_count": 10,
+  "detected_labels": [
+    "PERSON",
+    "AADHAAR",
+    "PAN",
+    "PASSPORT",
+    "DOB",
+    "LOCATION",
+    "ADDRESS",
+    "PINCODE",
+    "EMAIL",
+    "PHONE"
+  ],
+  "unique_labels": [
+    "AADHAAR",
+    "ADDRESS",
+    "DOB",
+    "EMAIL",
+    "LOCATION",
+    "PAN",
+    "PASSPORT",
+    "PERSON",
+    "PHONE",
+    "PINCODE"
+  ],
+  "expected_labels": [
+    "PERSON",
+    "AADHAAR",
+    "PAN",
+    "PHONE",
+    "EMAIL",
+    "ADDRESS",
+    "LOCATION",
+    "DOB",
+    "PASSPORT",
+    "PINCODE"
+  ],
+  "missing_expected_labels": [],
+  "masked_prompt": "My name is [PERSON]. My Aadhaar is [AADHAAR]. My PAN is [PAN]. My passport is [PASSPORT]. I was born on [DOB]. I currently live in [LOCATION]. My registered address is [ADDRESS][PINCODE]. Please reach me at [EMAIL] or call [PHONE]. Can you summarize all my details?",
+  "ciphertext_chars": 424,
+  "ciphertext_preview": "D7wsPnNFa4BEFwyH5UrpBGSs41LlO3Rmyw96Sfvi9uprZGOjqLu3DZLjv+DCnpQ7+WXNo30XLTKx1C6+...",
+  "mapping_keys": [
+    "[AADHAAR]",
+    "[ADDRESS]",
+    "[DOB]",
+    "[EMAIL]",
+    "[LOCATION]",
+    "[PAN]",
+    "[PASSPORT]",
+    "[PERSON]",
+    "[PHONE]",
+    "[PINCODE]"
+  ],
+  "simulated_llm_output": "Summary for [PERSON]: identifiers recorded as [AADHAAR], [PAN], [PASSPORT]; date of birth [DOB]; city [LOCATION]; address [ADDRESS]; PIN [PINCODE]; email [EMAIL]; phone [PHONE].",
+  "restored_response": "Summary for Ananya Iyer: identifiers recorded as 2222 3333 4444, ABCDE1234F, A1234567; date of birth 15/08/2003; city Chennai; address 45 MG Road, Bengaluru with PIN ; PIN 560001; email ananya@example.com; phone +91-90000-12345.",
+  "pii_values_remaining_in_masked_prompt": [],
+  "restoration_succeeded": true,
+  "round_trip_mapping_match": true,
+  "llm_note": "Llama inference is demonstrated in the live dashboard; this recorded demo uses a placeholder-preserving simulated LLM output so the restoration path can be measured without depending on Ollama availability."
+}

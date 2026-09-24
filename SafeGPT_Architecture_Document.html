@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SafeGPT — System Architecture & Presentation Document</title>
+<style>
+    @page {
+        size: A4;
+        margin: 20mm 16mm 20mm 16mm;
+        @bottom-right {
+            content: "Page " counter(page) " of " counter(pages);
+            font-size: 9pt;
+            color: #64748b;
+        }
+    }
+    
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: #0f172a;
+        background: #ffffff;
+        line-height: 1.55;
+        font-size: 10.5pt;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cover {
+        border-bottom: 3px solid #0284c7;
+        padding-bottom: 20px;
+        margin-bottom: 28px;
+    }
+    
+    .header-badge {
+        display: inline-block;
+        background: #e0f2fe;
+        color: #0369a1;
+        font-size: 8.5pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    h1 {
+        font-size: 20pt;
+        font-weight: 800;
+        color: #0f172a;
+        margin: 0 0 8px 0;
+        line-height: 1.25;
+    }
+    
+    .subtitle {
+        font-size: 11pt;
+        color: #475569;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    .meta-row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        font-size: 9pt;
+        color: #64748b;
+    }
+    
+    h2 {
+        font-size: 13pt;
+        font-weight: 700;
+        color: #0369a1;
+        border-left: 4px solid #0284c7;
+        padding-left: 10px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+
+    h3 {
+        font-size: 11pt;
+        font-weight: 700;
+        color: #1e293b;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    
+    p {
+        margin: 0 0 10px 0;
+        text-align: justify;
+    }
+    
+    /* Architecture Diagram Canvas */
+    .arch-box {
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 18px 0;
+    }
+    
+    .arch-layer {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 12px 14px;
+        margin-bottom: 12px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+    
+    .arch-layer-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        font-size: 10pt;
+        color: #0f172a;
+        border-bottom: 1px solid #f1f5f9;
+        padding-bottom: 6px;
+        margin-bottom: 8px;
+    }
+    
+    .layer-tag {
+        font-size: 8pt;
+        font-weight: 600;
+        padding: 2px 8px;
+        border-radius: 4px;
+    }
+    .tag-blue { background: #e0f2fe; color: #0284c7; }
+    .tag-purple { background: #f3e8ff; color: #7e22ce; }
+    .tag-amber { background: #fef3c7; color: #b45309; }
+    .tag-green { background: #dcfce7; color: #15803d; }
+    
+    .arch-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        font-size: 9pt;
+    }
+    
+    .arch-subcard {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        padding: 8px 10px;
+    }
+    .arch-subcard strong {
+        display: block;
+        color: #1e293b;
+        margin-bottom: 3px;
+        font-size: 9pt;
+    }
+    
+    .arrow-down {
+        text-align: center;
+        font-weight: bold;
+        color: #0284c7;
+        font-size: 13pt;
+        line-height: 1;
+        margin: -4px 0 8px 0;
+    }
+    
+    /* Tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 9pt;
+        margin: 12px 0 18px 0;
+    }
+    
+    th {
+        background: #f1f5f9;
+        color: #1e293b;
+        font-weight: 700;
+        text-align: left;
+        padding: 7px 10px;
+        border: 1px solid #cbd5e1;
+    }
+    
+    td {
+        padding: 6px 10px;
+        border: 1px solid #e2e8f0;
+        color: #334155;
+    }
+    
+    tr:nth-child(even) td {
+        background: #f8fafc;
+    }
+    
+    .pill {
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 8pt;
+        font-weight: 600;
+    }
+    .pill-green { background: #dcfce7; color: #166534; }
+    .pill-blue { background: #e0f2fe; color: #075985; }
+    
+    /* Code / ASCII */
+    pre {
+        background: #0f172a;
+        color: #f8fafc;
+        padding: 12px;
+        border-radius: 6px;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 7.8pt;
+        line-height: 1.35;
+        overflow-x: auto;
+    }
+    
+    /* Script Callout */
+    .script-box {
+        background: #f0fdf4;
+        border: 1px solid #bbf7d0;
+        border-left: 4px solid #16a34a;
+        border-radius: 6px;
+        padding: 12px 14px;
+        margin: 14px 0;
+        font-size: 9.5pt;
+    }
+    .script-box strong {
+        color: #166534;
+    }
+    
+    .page-break {
+        page-break-after: always;
+        break-after: page;
+    }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: TITLE & CORE ARCHITECTURE DIAGRAM -->
+<div class="cover">
+    <div class="header-badge">Architecture & Review Panel Documentation</div>
+    <h1>SafeGPT: System Architecture & Data Flow</h1>
+    <div class="subtitle">A Privacy-Preserving Conversational AI Framework Using Hybrid PII Detection, Local LLM, and Federated Learning</div>
+    <div class="meta-row">
+        <span>Framework: SafeGPT v2.0 (On-Premise & Local)</span>
+        <span>Cryptographic AEAD: AES-256-GCM</span>
+        <span>Local Model: Meta Llama 3 (8B Instruct)</span>
+    </div>
+</div>
+
+<h2>1. Executive Architectural Overview</h2>
+<p>
+    SafeGPT introduces an intelligent, zero-cloud privacy perimeter around Large Language Models. When users ask questions containing sensitive personal identifiers (Aadhaar, PAN, phone numbers, person names, and addresses), SafeGPT executes a deterministic, cryptographically authenticated 5-stage pipeline:
+    <strong>Detect &rarr; Mask &rarr; Encrypt &rarr; Local Inference &rarr; Restore</strong>.
+</p>
+
+<h2>2. Complete System Architecture Diagram</h2>
+
+<div class="arch-box">
+
+    <!-- Layer 1 -->
+    <div class="arch-layer">
+        <div class="arch-layer-header">
+            <span>Layer 1: User Presentation & Client Interfaces</span>
+            <span class="layer-tag tag-blue">Input Boundary</span>
+        </div>
+        <div class="arch-grid">
+            <div class="arch-subcard">
+                <strong>Native Desktop Assistant</strong>
+                SafeGPT.app (macOS WebKit window)<br/>540&times;820 compact floating UI
+            </div>
+            <div class="arch-subcard">
+                <strong>Security & Review Console</strong>
+                ui/admin_dashboard.py<br/>Auditing, metrics, & FL governance
+            </div>
+            <div class="arch-subcard">
+                <strong>Interactive Terminal CLI</strong>
+                python app.py --cli<br/>Direct pipe inspection mode
+            </div>
+        </div>
+    </div>
+
+    <div class="arrow-down">&darr; Raw User Prompt with PII</div>
+
+    <!-- Layer 2 -->
+    <div class="arch-layer">
+        <div class="arch-layer-header">
+            <span>Layer 2: Hybrid PII Detection Engine (pii_detector.py)</span>
+            <span class="layer-tag tag-purple">100% Recall &bull; 0 False Negatives</span>
+        </div>
+        <div class="arch-grid">
+            <div class="arch-subcard">
+                <strong>Deterministic Regex Engine</strong>
+                &bull; 12-digit Indian Aadhaar<br/>
+                &bull; 10-char Alphanumeric PAN<br/>
+                &bull; Indian Phone Numbers (+91)
+            </div>
+            <div class="arch-subcard">
+                <strong>Contextual Rule Engine</strong>
+                &bull; Date of Birth (DOB) patterns<br/>
+                &bull; Indian Passport Numbers<br/>
+                &bull; 6-digit Postal PIN Codes
+            </div>
+            <div class="arch-subcard">
+                <strong>spaCy Statistical NER</strong>
+                &bull; Person Names (PERSON)<br/>
+                &bull; Geographic Locations (GPE)<br/>
+                &bull; Full Street Addresses
+            </div>
+        </div>
+    </div>
+
+    <div class="arrow-down">&darr; Identified Entity Spans & Boundaries</div>
+
+    <!-- Layer 3 & 4 Split -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 8px;">
+        <div class="arch-layer" style="margin-bottom: 0;">
+            <div class="arch-layer-header">
+                <span>Layer 3: Semantic Masking</span>
+                <span class="layer-tag tag-blue">masker.py</span>
+            </div>
+            <div style="font-size: 8.5pt;">
+                <strong>Prompt Sanitization:</strong><br/>
+                Replaces PII with typed tokens:<br/>
+                <code>[PERSON]</code>, <code>[AADHAAR]</code>, <code>[EMAIL]</code>.<br/>
+                <em>Zero raw identifiers exposed to model.</em>
+            </div>
+        </div>
+
+        <div class="arch-layer" style="margin-bottom: 0;">
+            <div class="arch-layer-header">
+                <span>Layer 4: AES-256-GCM Storage</span>
+                <span class="layer-tag tag-amber">encrypted_store.py</span>
+            </div>
+            <div style="font-size: 8.5pt;">
+                <strong>Cryptographic AEAD:</strong><br/>
+                &bull; Ephemeral 256-bit AESGCM key<br/>
+                &bull; 96-bit Nonce + 128-bit Auth Tag<br/>
+                &bull; <em>0% plaintext PII written to disk.</em>
+            </div>
+        </div>
+    </div>
+
+    <div class="arrow-down">&darr; Sanitized Prompt (Zero PII) &bull; 0 KB Cloud Transmission</div>
+
+    <!-- Layer 5 -->
+    <div class="arch-layer">
+        <div class="arch-layer-header">
+            <span>Layer 5: Local Air-Gapped Inference Engine (llm_connector.py)</span>
+            <span class="layer-tag tag-green">Meta Llama 3 (8B) via Ollama</span>
+        </div>
+        <div class="arch-grid">
+            <div class="arch-subcard">
+                <strong>Local REST Endpoint</strong>
+                http://localhost:11434/api/generate<br/>
+                100% offline; zero internet dependency
+            </div>
+            <div class="arch-subcard">
+                <strong>Guardrail System Prompt</strong>
+                Informs model that tokens are safe anonymized placeholders (prevents safety refusals)
+            </div>
+            <div class="arch-subcard">
+                <strong>Model Output</strong>
+                Generates intelligent answer preserving semantic token positions
+            </div>
+        </div>
+    </div>
+
+    <div class="arrow-down">&darr; Raw Model Generation with Placeholders</div>
+
+    <!-- Layer 6 -->
+    <div class="arch-layer">
+        <div class="arch-layer-header">
+            <span>Layer 6: Controlled De-masking & Delivery (demasker.py)</span>
+            <span class="layer-tag tag-blue">Authorized Restoration</span>
+        </div>
+        <div style="font-size: 8.5pt;">
+            In-memory authorized AES-256 decryption &rarr; Length-ordered bracket token replacement &rarr; Natural restored user response delivered with subtle privacy verification receipt.
+        </div>
+    </div>
+
+</div>
+
+<div class="page-break"></div>
+
+<!-- PAGE 2: FEDERATED LEARNING, BENCHMARKS, & SCRIPT -->
+
+<h2>3. Model Governance: Federated Learning & Differential Privacy</h2>
+<p>
+    For multi-institutional collaborative training without centralizing sensitive records (e.g., Hospital A, B, and C), SafeGPT integrates <strong>Federated Averaging (FedAvg)</strong> with a formal <strong>Gaussian Differential Privacy (DP)</strong> engine.
+</p>
+
+<div class="arch-box" style="margin-top: 10px;">
+    <div class="arch-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom: 10px;">
+        <div class="arch-subcard">
+            <strong>Hospital Node A (Edge)</strong>
+            300 private records<br/>Local SGD training
+        </div>
+        <div class="arch-subcard">
+            <strong>Hospital Node B (Edge)</strong>
+            200 private records<br/>Local SGD training
+        </div>
+        <div class="arch-subcard">
+            <strong>Hospital Node C (Edge)</strong>
+            150 private records<br/>Local SGD training
+        </div>
+    </div>
+    
+    <div class="arrow-down">&darr; Local Model Weight Updates</div>
+    
+    <div class="arch-layer" style="margin-bottom: 0;">
+        <div class="arch-layer-header">
+            <span>Differential Privacy Engine (dp_filter/noise_engine.py) & Federated Aggregator (federated/)</span>
+            <span class="layer-tag tag-purple">Bounded DP-FedAvg</span>
+        </div>
+        <div style="font-size: 9pt;">
+            &bull; <strong>L2 Gradient Clipping:</strong> Bounds individual client influence to clipping threshold \(C = 1.0\).<br/>
+            &bull; <strong>Gaussian Perturbation:</strong> Injects calibrated noise \(\mathcal{N}(0, \sigma^2)\) parameterized by privacy budget \((\epsilon, \delta)\).<br/>
+            &bull; <strong>FedAvg Server:</strong> Aggregates clipped, noisy updates across communication rounds without inspecting client data.
+        </div>
+    </div>
+</div>
+
+<h2>4. Empirical Benchmark Validation (240 Test Cases)</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>PII Category</th>
+            <th>True Positives (TP)</th>
+            <th>False Positives (FP)</th>
+            <th>False Negatives (FN)</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>AADHAAR</strong></td><td>20</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>PAN</strong></td><td>21</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>PHONE</strong></td><td>52</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>EMAIL</strong></td><td>36</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>ADDRESS</strong></td><td>23</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>LOCATION</strong></td><td>27</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>DOB</strong></td><td>20</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>PASSPORT</strong></td><td>16</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>PINCODE</strong></td><td>18</td><td>0</td><td>0</td><td>100.0%</td><td>100.0%</td><td><span class="pill pill-green">100.0%</span></td></tr>
+        <tr><td><strong>PERSON</strong></td><td>68</td><td>3</td><td>0</td><td>95.77%</td><td>100.0%</td><td><span class="pill pill-blue">97.84%</span></td></tr>
+        <tr style="font-weight: 700; background: #e0f2fe;">
+            <td>OVERALL TOTAL</td><td>301</td><td>3</td><td>0</td><td>99.01%</td><td>100.00%</td><td>99.50%</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Latency Overhead & Efficiency</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Pipeline Stage</th>
+            <th>Measured Latency (ms)</th>
+            <th>Overhead Contribution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Hybrid PII Detection</td><td>3.565 ms</td><td>81.1% of privacy layer</td></tr>
+        <tr><td>Semantic Token Masking</td><td>0.002 ms</td><td>&lt; 0.1%</td></tr>
+        <tr><td>AES-256-GCM AEAD Encryption</td><td>0.220 ms</td><td>5.0% of privacy layer</td></tr>
+        <tr><td>AES-256-GCM AEAD Decryption</td><td>0.007 ms</td><td>&lt; 0.2%</td></tr>
+        <tr><td>De-masking Restoration</td><td>0.003 ms</td><td>&lt; 0.1%</td></tr>
+        <tr style="font-weight: 700; background: #fef3c7;">
+            <td>TOTAL PRIVACY OVERHEAD</td><td>4.394 ms</td><td>0.07% of total turn time</td></tr>
+        <tr><td>Local Llama 3 (8B) Inference</td><td>6582.63 ms</td><td>99.93% (AI Computation)</td></tr>
+    </tbody>
+</table>
+
+<h2>5. Spoken Walkthrough Script (For Your Presentation)</h2>
+
+<div class="script-box">
+    <p><strong>1. Introduction:</strong> "Mam, SafeGPT is an on-premise, privacy-preserving conversational AI framework. When a user asks a query containing sensitive data—like Aadhaar or name—the prompt never travels directly to an AI model."</p>
+    <p><strong>2. Detection & Masking:</strong> "Our Hybrid PII Detection Engine uses deterministic Regex for Indian Aadhaar and PAN, contextual rules for DOB and Passport, and spaCy NER for names and locations. It achieved 100% Recall with 0 False Negatives on our 240-example benchmark. Sensitive entities are instantly replaced with typed tokens like [PERSON] and [AADHAAR]."</p>
+    <p><strong>3. Cryptographic Storage:</strong> "The mapping dictionary is encrypted using AES-256-GCM with a 96-bit nonce and stored in encrypted_mapping.bin. Zero plaintext PII is ever written to disk."</p>
+    <p><strong>4. Local Air-Gapped Llama 3:</strong> "The sanitized prompt is sent to local Llama 3 (8B) via Ollama. 0 KB is sent over the internet. When the model responds, our de-masker performs in-memory decryption and restores placeholders back to original values."</p>
+    <p><strong>5. Federated Governance:</strong> "Finally, for collaborative institutional training, we use Federated Averaging (FedAvg) combined with a Gaussian Differential Privacy engine (L2 clipping and noise addition) to mathematically bound individual data leakage."</p>
+</div>
+
+</body>
+</html>

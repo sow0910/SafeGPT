@@ -1,0 +1,317 @@
+{
+  "note": "Results are from a simulated three-client environment (Hospital A/B/C), not a live hospital network.",
+  "clients": [
+    {
+      "client_id": "Hospital_A",
+      "num_samples": 300
+    },
+    {
+      "client_id": "Hospital_B",
+      "num_samples": 200
+    },
+    {
+      "client_id": "Hospital_C",
+      "num_samples": 150
+    }
+  ],
+  "clipping_norm": 1.0,
+  "delta": 1e-05,
+  "rounds": 5,
+  "experiments": [
+    {
+      "experiment": "FL without DP (Baseline)",
+      "dp_enabled": false,
+      "epsilon": null,
+      "privacy": "None (\u03b5 \u2192 \u221e)",
+      "communication_rounds": 5,
+      "initial_accuracy": 0.48,
+      "initial_accuracy_pct": "48.0%",
+      "final_accuracy": 0.6,
+      "final_accuracy_pct": "60.0%",
+      "final_loss": 0.6812782817159477,
+      "round_1_pct": "49.5%",
+      "round_2_pct": "50.5%",
+      "round_3_pct": "53.5%",
+      "round_4_pct": "58.0%",
+      "round_5_pct": "60.0%",
+      "history": [
+        {
+          "round": 1,
+          "val_loss": 0.7565432844149409,
+          "val_accuracy": 0.495,
+          "update_norm": 0.05930753022429254,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 2,
+          "val_loss": 0.735833809327829,
+          "val_accuracy": 0.505,
+          "update_norm": 0.05742465631901339,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 3,
+          "val_loss": 0.7164302877461352,
+          "val_accuracy": 0.535,
+          "update_norm": 0.05556348277497535,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 4,
+          "val_loss": 0.6982674392378061,
+          "val_accuracy": 0.58,
+          "update_norm": 0.0537316044893679,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 5,
+          "val_loss": 0.6812782817159477,
+          "val_accuracy": 0.6,
+          "update_norm": 0.05193586448455196,
+          "participating_clients": 3,
+          "total_samples": 650
+        }
+      ]
+    },
+    {
+      "experiment": "FL with DP (\u03b5 = 0.5, Stronger)",
+      "dp_enabled": true,
+      "epsilon": 0.5,
+      "privacy": "Stronger",
+      "communication_rounds": 5,
+      "initial_accuracy": 0.48,
+      "initial_accuracy_pct": "48.0%",
+      "final_accuracy": 0.545,
+      "final_accuracy_pct": "54.5%",
+      "final_loss": 5.930220815433534,
+      "round_1_pct": "46.0%",
+      "round_2_pct": "39.0%",
+      "round_3_pct": "58.0%",
+      "round_4_pct": "51.5%",
+      "round_5_pct": "54.5%",
+      "history": [
+        {
+          "round": 1,
+          "val_loss": 3.9467800847034713,
+          "val_accuracy": 0.46,
+          "update_norm": 8.324167603724758,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 2,
+          "val_loss": 6.755740818068352,
+          "val_accuracy": 0.39,
+          "update_norm": 14.438265222617792,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 3,
+          "val_loss": 5.759435759566031,
+          "val_accuracy": 0.58,
+          "update_norm": 21.0083764250795,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 4,
+          "val_loss": 6.405755590731683,
+          "val_accuracy": 0.515,
+          "update_norm": 11.380269448403565,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 5,
+          "val_loss": 5.930220815433534,
+          "val_accuracy": 0.545,
+          "update_norm": 8.598287169261338,
+          "participating_clients": 3,
+          "total_samples": 650
+        }
+      ]
+    },
+    {
+      "experiment": "FL with DP (\u03b5 = 1.0, Strong)",
+      "dp_enabled": true,
+      "epsilon": 1.0,
+      "privacy": "Strong",
+      "communication_rounds": 5,
+      "initial_accuracy": 0.48,
+      "initial_accuracy_pct": "48.0%",
+      "final_accuracy": 0.55,
+      "final_accuracy_pct": "55.0%",
+      "final_loss": 4.668553976248521,
+      "round_1_pct": "45.0%",
+      "round_2_pct": "38.5%",
+      "round_3_pct": "58.5%",
+      "round_4_pct": "51.0%",
+      "round_5_pct": "55.0%",
+      "history": [
+        {
+          "round": 1,
+          "val_loss": 2.107540588633823,
+          "val_accuracy": 0.45,
+          "update_norm": 4.161318154178879,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 2,
+          "val_loss": 4.6310383966750415,
+          "val_accuracy": 0.385,
+          "update_norm": 7.209822020220871,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 3,
+          "val_loss": 4.320097674361023,
+          "val_accuracy": 0.585,
+          "update_norm": 10.51027534876349,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 4,
+          "val_loss": 4.869409829986301,
+          "val_accuracy": 0.51,
+          "update_norm": 5.6869595908374775,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 5,
+          "val_loss": 4.668553976248521,
+          "val_accuracy": 0.55,
+          "update_norm": 4.2971831320837035,
+          "participating_clients": 3,
+          "total_samples": 650
+        }
+      ]
+    },
+    {
+      "experiment": "FL with DP (\u03b5 = 2.0, Moderate)",
+      "dp_enabled": true,
+      "epsilon": 2.0,
+      "privacy": "Moderate",
+      "communication_rounds": 5,
+      "initial_accuracy": 0.48,
+      "initial_accuracy_pct": "48.0%",
+      "final_accuracy": 0.545,
+      "final_accuracy_pct": "54.5%",
+      "final_loss": 2.8398528033402655,
+      "round_1_pct": "42.5%",
+      "round_2_pct": "39.5%",
+      "round_3_pct": "58.5%",
+      "round_4_pct": "49.0%",
+      "round_5_pct": "54.5%",
+      "history": [
+        {
+          "round": 1,
+          "val_loss": 1.237998575392306,
+          "val_accuracy": 0.425,
+          "update_norm": 2.08021028192811,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 2,
+          "val_loss": 2.5077923311084938,
+          "val_accuracy": 0.395,
+          "update_norm": 3.59918697029401,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 3,
+          "val_loss": 2.574371766596713,
+          "val_accuracy": 0.585,
+          "update_norm": 5.262609856281432,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 4,
+          "val_loss": 2.865156276235747,
+          "val_accuracy": 0.49,
+          "update_norm": 2.840486223617736,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 5,
+          "val_loss": 2.8398528033402655,
+          "val_accuracy": 0.545,
+          "update_norm": 2.148594437587386,
+          "participating_clients": 3,
+          "total_samples": 650
+        }
+      ]
+    },
+    {
+      "experiment": "FL with DP (\u03b5 = 5.0, Weaker)",
+      "dp_enabled": true,
+      "epsilon": 5.0,
+      "privacy": "Weaker",
+      "communication_rounds": 5,
+      "initial_accuracy": 0.48,
+      "initial_accuracy_pct": "48.0%",
+      "final_accuracy": 0.555,
+      "final_accuracy_pct": "55.5%",
+      "final_loss": 1.2134190459745344,
+      "round_1_pct": "42.5%",
+      "round_2_pct": "36.0%",
+      "round_3_pct": "56.5%",
+      "round_4_pct": "47.0%",
+      "round_5_pct": "55.5%",
+      "history": [
+        {
+          "round": 1,
+          "val_loss": 0.862743763826953,
+          "val_accuracy": 0.425,
+          "update_norm": 0.8325598916457684,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 2,
+          "val_loss": 1.2066518660712655,
+          "val_accuracy": 0.36,
+          "update_norm": 1.4381894765162442,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 3,
+          "val_loss": 1.1407120150302796,
+          "val_accuracy": 0.565,
+          "update_norm": 2.1196881634555096,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 4,
+          "val_loss": 1.26086124879652,
+          "val_accuracy": 0.47,
+          "update_norm": 1.130245497675267,
+          "participating_clients": 3,
+          "total_samples": 650
+        },
+        {
+          "round": 5,
+          "val_loss": 1.2134190459745344,
+          "val_accuracy": 0.555,
+          "update_norm": 0.8670625197391779,
+          "participating_clients": 3,
+          "total_samples": 650
+        }
+      ]
+    }
+  ]
+}

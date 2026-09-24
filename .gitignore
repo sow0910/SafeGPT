@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+storage/encrypted_mapping.bin
+.DS_Store
+storage/encrypted_data.bin
+storage/encrypted_mapping.bin

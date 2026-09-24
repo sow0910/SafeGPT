@@ -1,0 +1,3137 @@
+[
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "I am Priya Sharma and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "PERSON"
+      },
+      {
+        "start": 42,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Bengaluru and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Pune and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma lives in Mumbai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Bengaluru and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Hyderabad and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Priya Sharma and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "PERSON"
+      },
+      {
+        "start": 42,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Hyderabad and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Pune and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Arjun Menon.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Arjun Menon at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Pune and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Chennai and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Hyderabad and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Mumbai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Chennai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Sneha Reddy and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Mumbai and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Mumbai and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Bengaluru and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Pune and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Chennai and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Hyderabad and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Bengaluru and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 47,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Mumbai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Chennai and can be contacted at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Bengaluru and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Sneha Reddy and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Chennai and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Hyderabad and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Arjun Menon.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Rahul Kumar lives in Bengaluru and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Ananya Iyer at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Hyderabad.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Pune and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Hyderabad and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and my phone number is +91-90000-12345.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Ananya Iyer lives in Hyderabad and can be contacted at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and my phone number is +91-90000-45678.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Mumbai and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "LOCATION"
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Sneha Reddy and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "I am Priya Sharma and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "PERSON"
+      },
+      {
+        "start": 42,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Priya Sharma.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Arjun Menon and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Ananya Iyer and I live in Chennai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Pune.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma lives in Bengaluru and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "label": "LOCATION"
+      },
+      {
+        "start": 56,
+        "end": 71,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Sneha Reddy lives in Chennai and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "LOCATION"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Priya Sharma at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to rahul@example.com. My name is Ananya Iyer.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Arjun Menon at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Sneha Reddy.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Hyderabad.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "Arjun Menon lives in Pune and can be contacted at +91-90000-23456.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "label": "LOCATION"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to ananya@example.com. My name is Arjun Menon.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "label": "EMAIL"
+      },
+      {
+        "start": 57,
+        "end": 68,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to arjun@example.com. My name is Rahul Kumar.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "label": "EMAIL"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Bengaluru.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and I live in Hyderabad.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 38,
+        "end": 47,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and I live in Mumbai.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "LOCATION"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Rahul Kumar at +91-90000-45678.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "My name is Rahul Kumar and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Sneha Reddy at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Arjun Menon and you can email me at rahul@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "I am Rahul Kumar and you can email me at ananya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma lives in Pune and can be contacted at +91-90000-12345.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "label": "LOCATION"
+      },
+      {
+        "start": 51,
+        "end": 66,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Ananya Iyer and you can email me at priya@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Priya Sharma and my phone number is +91-90000-23456.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "PERSON"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "I am Sneha Reddy and you can email me at arjun@example.com.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "label": "PERSON"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My name is Sneha Reddy and my phone number is +91-90000-34567.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "PERSON"
+      },
+      {
+        "start": 46,
+        "end": 61,
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "You can contact Arjun Menon at +91-90000-34567.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "label": "PHONE"
+      }
+    ]
+  }
+]

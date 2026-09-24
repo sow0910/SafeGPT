@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-09-21 01:07:17",
+  "total_scenarios": 5,
+  "passed_scenarios": 5,
+  "scenario_pass_rate_percent": 100.0,
+  "scenarios": [
+    {
+      "scenario_id": "SCENARIO_1",
+      "category": "Indian Identity (Aadhaar & Name)",
+      "prompt": "My name is Ananya Iyer and my Aadhaar is 2222 3333 4444. How can I update my address?",
+      "expected_labels": [
+        "AADHAAR",
+        "PERSON"
+      ],
+      "detected_labels": [
+        "AADHAAR",
+        "PERSON"
+      ],
+      "masked_prompt": "My name is [PERSON] and my Aadhaar is [AADHAAR]. How can I update my address?",
+      "response_preview": "You can update your address on the Aadhaar website (uidai.gov.in) or through a registered Aadhaar Ke...",
+      "detection_passed": true,
+      "privacy_preserved": true,
+      "passed": true,
+      "latency_ms": 15020.36
+    },
+    {
+      "scenario_id": "SCENARIO_2",
+      "category": "Contact Information (Email & Phone)",
+      "prompt": "Please confirm my appointment. My email is ananya@example.com and phone is +91-90000-12345.",
+      "expected_labels": [
+        "EMAIL",
+        "PHONE"
+      ],
+      "detected_labels": [
+        "EMAIL",
+        "PHONE"
+      ],
+      "masked_prompt": "Please confirm my appointment. My email is [EMAIL] and phone is [PHONE].",
+      "response_preview": "I'm happy to help! However, I need to clarify that I am an AI assistant and do not have the ability ...",
+      "detection_passed": true,
+      "privacy_preserved": true,
+      "passed": true,
+      "latency_ms": 5229.95
+    },
+    {
+      "scenario_id": "SCENARIO_3",
+      "category": "Financial & Identification (PAN & Name)",
+      "prompt": "Please verify PAN ABCDE1234F registered to Arjun Menon.",
+      "expected_labels": [
+        "PAN",
+        "PERSON"
+      ],
+      "detected_labels": [
+        "PAN",
+        "PERSON"
+      ],
+      "masked_prompt": "Please verify PAN [PAN] registered to [PERSON].",
+      "response_preview": "A request for PAN verification!\n\nTo verify the Permanent Account Number (PAN) registered to a person...",
+      "detection_passed": true,
+      "privacy_preserved": true,
+      "passed": true,
+      "latency_ms": 7012.89
+    },
+    {
+      "scenario_id": "SCENARIO_4",
+      "category": "Non-PII General Knowledge",
+      "prompt": "What is Artificial Intelligence in computer science?",
+      "expected_labels": [],
+      "detected_labels": [],
+      "masked_prompt": "What is Artificial Intelligence in computer science?",
+      "response_preview": "Artificial intelligence (AI) refers to the development of computer systems that can perform tasks th...",
+      "detection_passed": true,
+      "privacy_preserved": true,
+      "passed": true,
+      "latency_ms": 25475.66
+    },
+    {
+      "scenario_id": "SCENARIO_5",
+      "category": "Multi-Entity Complex Query",
+      "prompt": "The patient's name is Kavya Nair. Her Aadhaar is 9999 8888 7777 and email is kavya@example.com.",
+      "expected_labels": [
+        "AADHAAR",
+        "EMAIL",
+        "PERSON"
+      ],
+      "detected_labels": [
+        "AADHAAR",
+        "EMAIL",
+        "PERSON"
+      ],
+      "masked_prompt": "The patient's name is [PERSON]. Her Aadhaar is [AADHAAR] and email is [EMAIL].",
+      "response_preview": "I cannot create a document that includes personal information. Is there something else I can help yo...",
+      "detection_passed": true,
+      "privacy_preserved": true,
+      "passed": true,
+      "latency_ms": 1139.17
+    }
+  ],
+  "latency_metrics": {
+    "detection_ms": {
+      "mean_ms": 2.5343176239402965,
+      "std_ms": 0.6525947557922347,
+      "min_ms": 1.7484590061940253,
+      "max_ms": 3.943749994505197
+    },
+    "masking_ms": {
+      "mean_ms": 0.0014998367987573147,
+      "std_ms": 0.00034693113476757,
+      "min_ms": 0.0011249794624745846,
+      "max_ms": 0.0021249870769679546
+    },
+    "mapping_ms": {
+      "mean_ms": 0.0007986673153936863,
+      "std_ms": 0.00015116269914842062,
+      "min_ms": 0.0005830079317092896,
+      "max_ms": 0.0010420335456728935
+    },
+    "encryption_ms": {
+      "mean_ms": 0.013805828833331665,
+      "std_ms": 0.008487360799568907,
+      "min_ms": 0.007792026735842228,
+      "max_ms": 0.032208976335823536
+    },
+    "decryption_ms": {
+      "mean_ms": 0.005798482258493702,
+      "std_ms": 0.001136595603437351,
+      "min_ms": 0.00466697383671999,
+      "max_ms": 0.008040980901569128
+    },
+    "restoration_ms": {
+      "mean_ms": 0.002152674521009127,
+      "std_ms": 0.00037793820757934496,
+      "min_ms": 0.0017500133253633976,
+      "max_ms": 0.002874992787837982
+    },
+    "total_privacy_overhead_ms": {
+      "mean_ms": 2.809583160948629,
+      "std_ms": 0.5714487606600032,
+      "min_ms": 2.186249999795109,
+      "max_ms": 3.9898749091662467
+    }
+  },
+  "privacy_utility_metrics": {
+    "total_pii_entities_tested": 10,
+    "vanilla_llm_pii_leakage_percent": 100.0,
+    "safegpt_pii_leakage_percent": 0.0,
+    "pii_protection_gain_percent": 100.0,
+    "restoration_fidelity_percent": 100.0
+  },
+  "detector_benchmark": {
+    "test_examples": 240,
+    "precision": 0.9901,
+    "recall": 1.0,
+    "f1_score": 0.995,
+    "false_negatives": 0
+  }
+}

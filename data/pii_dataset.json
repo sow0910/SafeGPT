@@ -1,0 +1,92 @@
+[
+  {
+    "text": "My name is Priya Sharma.",
+    "entities": [
+      {
+        "text": "Priya Sharma",
+        "label": "PERSON"
+      }
+    ]
+  },
+  {
+    "text": "You can contact me at +91-90000-12345.",
+    "entities": [
+      {
+        "text": "+91-90000-12345",
+        "label": "PHONE"
+      }
+    ]
+  },
+  {
+    "text": "Please send the report to priya@example.com.",
+    "entities": [
+      {
+        "text": "priya@example.com",
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "text": "My PAN is ABCDE1234F.",
+    "entities": [
+      {
+        "text": "ABCDE1234F",
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "text": "The Aadhaar number is 1111 2222 3333.",
+    "entities": [
+      {
+        "text": "1111 2222 3333",
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "text": "I live at 12 Anna Nagar, Chennai.",
+    "entities": [
+      {
+        "text": "12 Anna Nagar, Chennai",
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "text": "My PIN code is 600042.",
+    "entities": [
+      {
+        "text": "600042",
+        "label": "PINCODE"
+      }
+    ]
+  },
+  {
+    "text": "My date of birth is 15/08/1999.",
+    "entities": [
+      {
+        "text": "15/08/1999",
+        "label": "DOB"
+      }
+    ]
+  },
+  {
+    "text": "My passport number is P1234567.",
+    "entities": [
+      {
+        "text": "P1234567",
+        "label": "PASSPORT"
+      }
+    ]
+  },
+  {
+    "text": "I am currently staying in Chennai.",
+    "entities": [
+      {
+        "text": "Chennai",
+        "label": "LOCATION"
+      }
+    ]
+  }
+]
