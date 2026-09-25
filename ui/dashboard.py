@@ -5,8 +5,15 @@ Local LLM, and Federated Learning.
 """
 
 import os
+import sys
 import json
 import time
+
+# Add SafeGPT project root to Python path
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
 import numpy as np
 import pandas as pd
 import streamlit as st

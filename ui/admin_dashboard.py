@@ -5,12 +5,20 @@ security audits, and privacy governance.
 """
 
 import os
+import sys
 import json
 import time
+
+# Add SafeGPT project root to Python path
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+import numpy as np
 import pandas as pd
 import streamlit as st
 
-# SafeGPT Core Modules
+# SafeGPT Modules
 from pii_detector import detect_pii
 from masker import mask_pii, create_pii_mapping
 from demasker import restore_pii
